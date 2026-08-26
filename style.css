@@ -10,6 +10,10 @@ body {
     background-color: #554dcc;
 }
 
+#thanks {
+    background-color: #554dcc;
+}
+
 .auth-card {
     overflow: hidden;
     border-radius: 15px;
