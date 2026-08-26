@@ -1,0 +1,49 @@
+:root {
+    --primary: #6c63ff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.auth-card {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.intro-section {
+    background: linear-gradient(135deg, #25234a, var(--primary));
+}
+
+.hero {
+    background: #f5f6ff;
+}
+
+.feature-card {
+    border: 0;
+    transition: .2s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.about {
+    background: #f8f9fa;
+}
+
+.btn-primary {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background: #554dcc;
+    border-color: #554dcc;
+}
+
+@media (max-width: 767px) {
+    .intro-section {
+        text-align: center;
+    }
+}
